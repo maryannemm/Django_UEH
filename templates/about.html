@@ -1,0 +1,403 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Uzury Empowerment Hub_html/  20 Nov 2019 03:24:55 GMT -->
+<head>
+<meta charset="utf-8">
+<title>Uzury Empowerment Hub</title>
+
+<link rel="shortcut icon" href="{% static 'images/favicon1.jpg' %}" type="image/x-icon">
+<link rel="icon" href="{% static 'images/favicon1.jpg' %}" type="image/x-icon">
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.comstatic/css?family=Prata|Rubik:300,400,500,700&amp;display=swap" rel="stylesheet">
+
+<!-- Stylesheets -->
+<link href="{% static 'css/bootstrap.css' %}" rel="stylesheet">
+<link href="{% static 'css/jquery-ui.css' %}" rel="stylesheet">
+<link href="{% static 'css/swiper.min.css' %}" rel="stylesheet">
+<link href="{% static 'css/flaticon.css' %}" rel="stylesheet">
+<link href="{% static 'css/font-awesome.css' %}" rel="stylesheet">
+<link href="{% static 'css/animate.css' %}" rel="stylesheet">
+<link href="{% static 'css/custom-animate.css' %}" rel="stylesheet">
+<link href="{% static 'css/jquery.fancybox.min.css' %}" rel="stylesheet">
+<link href="{% static 'css/owl.css' %}" rel="stylesheet">
+<link href="{% static 'css/style.css' %}" rel="stylesheet">
+<link href="{% static 'css/responsive.css' %}" rel="stylesheet">
+
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<!--[if lt IE 9]><script  src="{ % static 'https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js' %}"></script><![endif]-->
+<!--[if lt IE 9]><script  src="{%static 'js/respond.js' %}"></script><![endif]-->
+</head>
+
+<body>
+
+<div class="page-wrapper">
+    <!-- Preloader -->
+    <div class="loader-wrap">
+        <div class="preloader"></div>
+        <div class="layer layer-one"><span class="overlay"></span></div>
+        <div class="layer layer-two"><span class="overlay"></span></div>        
+        <div class="layer layer-three"><span class="overlay"></span></div>        
+    </div>
+    
+    <!-- Main Header-->
+    <header class="main-header">
+        <!-- Top bar -->
+        <div class="top-bar theme-bg">
+            <div class="auto-container">
+                <div class="wrapper-box">
+                    <div class="left-content">
+                        <div class="language-switcher">
+                            <div class="languages">
+                                <span class="current" title="English">En</span>
+                                <span class="hover">English</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-content">
+                        <ul class="contact-info">
+                            <li><span class="flaticon-mail"></span><a href="mailto:uzuriempowermenthub@gmail.com">uzuriempowermenthub@gmail.com</a></li>
+                            <li><span class="flaticon-phone"></span><a href="tel:+254714282578">+254714282578</a></li>
+                        </ul>
+                        <ul class="social-icon-one">
+                            <li><a href="https://www.instagram.com/uzury.empowerment.hub/"><span class="fa fa-instagram"></span></a></li>
+                            <li><a href="https://www.linkedin.com/company/uzury-empowerment-hub/
+                                "><span class="fa fa-linkedin"></span></a></li>
+                            
+                        </ul>
+                    </div>
+                </div>                
+            </div>
+        </div>
+
+        <!-- Header Upper -->
+        <div class="header-upper">
+            <div class="auto-container">
+                <div class="wrapper-box">
+                    <div class="right-column">
+                        <div class="option-wrapper">
+                            <div class="nav-outer">
+                                
+                                <!-- Main Menu -->
+                                <nav class="main-menu navbar-expand-xl navbar-dark">
+                                    
+                                    <div class="collapse navbar-collapse">
+                                        <ul class="navigation">
+                                            <li><a href="{% url 'index' %}">Home</a></li>
+
+                                            <li class="dropdown current"><a href="#">Pages</a>
+                                                <ul>
+                                                    <li><a href="about ">About Us</a></li>
+                                                    <li><a href="faq ">FAQs</a></li>
+                                                    <li><a href="team">Meet Our Team</a></li>
+                                                    <li><a href="donate">Donate</a></li>
+                                                    <li><a href="resources">resources</a></li>
+                                                    <li><a href="shop">Shop</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                             
+                                            </li>
+                                            <li><a href="events">Programmes</a> 
+                                            <li><a href="https://podcasters.spotify.com/pod/show/uzuryempowerment"> Podcast</a></li>
+                                            </li>
+                                            <li><a href="team">Team</a>
+                                            </li><li><a href="volunteer">volunteer</a>
+                                            </li>
+                                            <li><a href="contact">Contact</a></li>
+                                        </ul>
+                                    </div>
+                                </nav><!-- Main Menu End-->
+                            </div>
+                            <!--Search Box-->
+                            
+    
+                            <div class="navbar-btn-wrap">
+                                <button class="anim-menu-btn">
+                                  <i class="flaticon-menu"></i>
+                                </button>
+                            </div>
+                            <div class="link-btn">
+                                <a href="volunteer" class="theme-btn btn-style-one"><span>Volunteer</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End Header Upper-->
+
+        <!--End Header Upper-->
+        <div class="sticky-header">
+            <div class="auto-container">
+                <div class="wrapper-box">
+                    <div class="menu-column">
+                        <div class="nav-outer">
+                            
+                            <div class="nav-inner">
+
+                                <!-- Main Menu -->
+                                <nav class="main-menu navbar-expand-xl navbar-dark">
+                                    
+                                    <div class="collapse navbar-collapse">
+                                        <ul class="navigation">
+                                        </ul>
+                                    </div>
+                                </nav><!-- Main Menu End-->
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu  -->
+        <div class="mobile-menu style-one">
+            <div class="menu-box">
+                <!-- Main Menu -->
+                <nav class="main-menu navbar-expand-xl navbar-dark">
+                    <div class="navbar-header">
+                        <!-- Toggle Button -->      
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="flaticon-menu"></span>
+                        </button>
+                    </div>
+                    
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navigation">
+                            
+                        </ul>
+                    </div>
+                </nav>
+                <!-- Main Menu End-->
+                <!--Search Box-->
+            
+            </div>     
+                
+        </div>
+        <!-- End Mobile Menu -->
+
+        <div class="nav-overlay">
+            <div class="cursor"></div>
+            <div class="cursor-follower"></div>
+        </div>
+    </header>
+    <!-- End Main Header -->
+
+    <!-- Page Title -->
+    <section class="page-title">
+        <div class="auto-container" style="padding: 20px;">
+            <div class="content-box">
+                <h1>Know About Us</h1>
+                <ul class="bread-crumb">
+                    <li><a class="home" href="index"><span class="fa fa-home"></span></a></li>
+                    <li>About Us</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- History Section -->
+    <section class="history-section" style="padding: 150px; padding-bottom: 150px;">
+        <div class="auto-container">
+            <div class="description">
+                <body>
+                    <div class="container">
+                        <h1 class="text-center my-5">Uzury Empowerment Hub</h1>
+                        <p>This is a community based organization that focuses on harnessing community effort and resources to support empowerment by fostering a transformative culture. Our objective it to create an environment where women, girls, and vulnerable populations are free to achieve their full potential.</p>
+                        <p>In a world that is constantly changing, there is a need to empower women and girls with skills to ensure they are ready and able to take full advantage of these opportunities.</p>
+                        <h2 class="my-4">MISSION:</h2>
+                        <p>Supporting women, girls, and vulnerable populations to achieve their overall well-being and reduce their vulnerability to social injustices and mental health issues.</p>
+                        <h2 class="my-4">What do we want to achieve?</h2>
+                        <p>Through the Women Leadership Committee, we hope to work together to create programs and interventions that are relevant, effective, and tailor made to support women and girls by providing them with knowledge, skills, and services that help in responding to and preventing gender injustices.</p>
+                        <p>This is done through:</p>
+                        <ol>
+                            <li>Advocacy and lobbying</li>
+                            <li>Social mobilization</li>
+                            <li>Capacity building</li>
+                            <li>Partnerships and collaborations</li>
+                            <li>Youth led research</li>
+                            <li>Mentorship</li>
+                        </ol>
+                    </div>
+                    <!-- Bootstrap JS -->
+                    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+                    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+            
+                </body>    
+            </div>
+        </div>
+    </section>      
+    <!-- Funfact Section -->
+<section class="funfacts-section-two style-two">
+    <div class="container-fluid px-0">
+      <div class="sec-title text-center light">
+        <h5>Our Impacts</h5>
+        <h1>Love learning about crazy facts? <br>Then read these amazing facts that will tickle your brain.</h1>
+      </div>
+      <div class="outer-box">
+        <div class="row">
+          <!--Column-->
+          <div class="col-lg-4 counter-block-two wow fadeInUp" data-wow-delay="300ms">
+            <div class="inner-box">
+              <div class="count-box">
+                <span class="prefix"></span><span class="count-text" data-speed="3000" data-stop="80">0</span>
+              </div>
+              <div class="text">Beneficiaries of Uzury Empowerment Hub</div>
+            </div>
+          </div>
+          <!--Column-->
+          <div class="col-lg-4 counter-block-two wow fadeInUp" data-wow-delay="600ms">
+            <div class="inner-box">
+              <div class="count-box">
+                <span class="prefix"></span><span class="count-text" data-speed="3000" data-stop="20">0</span><span class="affix"></span>
+              </div>
+              <div class="text">Happy Donators & Contributors</div>
+            </div>
+          </div>
+          <!--Column-->
+          <div class="col-lg-4 counter-block-two wow fadeInUp" data-wow-delay="300ms">
+            <div class="inner-box">
+              <div class="count-box">
+                <span class="prefix"></span><span class="count-text" data-speed="3000" data-stop="14">0</span><span class="affix"></span>
+              </div>
+              <div class="text">Lovely Volunteers Involved</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+    <!-- Why Choose Us Section -->
+    <section class="whychoose-us-section">
+        <div class="auto-container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="sec-title">
+                        <h1>Why sign up as a giver on <br>the Uzury Empowerment Hub?</h1>
+                        <div class="text">We have a deep passion for the work that we do to improve the efficiency <br>and effectiveness of the non-profit sector.</div>
+                    </div>
+                    <div class="whychoose-us-block">
+                        <div class="icon-box"><span class="flaticon-tick"></span></div>
+                        <div class="content">
+                            <h4>It’s super simple</h4>
+                            <div class="text">Indignation and dislike men who are so beguiled and demoral <br>the charms of pleasure of the moment.</div>
+                        </div>
+                    </div>
+                    <div class="whychoose-us-block">
+                        <div class="icon-box"><span class="flaticon-tick"></span></div>
+                        <div class="content">
+                            <h4>It’s super simple</h4>
+                            <div class="text">Indignation and dislike men who are so beguiled and demoral <br>the charms of pleasure of the moment.</div>
+                        </div>
+                    </div>
+                    <div class="link-btn"><a href="volunteer" class="theme-btn btn-style-one"><span>Let's Start</span></a></div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="image-block">
+                        <img  src="{%static 'static/imagesresource/image-18 .jpg' %}" alt="">
+                        <div class="contact-info-two">
+                            <h5>Need assitant for <br>join with us?</h5>
+                            <div class="icon-box"><span class="flaticon-phone-1"></span></div>
+                            <div class="phone-number"><a href="tel:+254714282578">+254714282578</a></div>
+                        </div>
+                        
+                        <div class="logo-box"><div class="image wow zoomIn" data-wow-delay="500ms"><img  src="{%static 'static/imagesresource/logo-icon1.jpg' %}" alt=""></div></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Main Footer -->
+    <footer class="main-footer" style="width: 100%
+                ;">
+<div class="content-box"></div>
+<div class="auto-container">
+        <div class="widget-wrapper">
+            <div class="row">
+                <!-- Contact Widget -->
+                <div class="col-lg-3 col-md-6 contact-widget footer-widget">
+                    <h4 class="widget-title">Contact</h4>
+                    <ul>
+                        <li>Meru town, <br>KNLS, Meru.</li>
+                            <li><a href="mailto:uzuriempowermenthub@gmail.com">uzuriempowermenthub@gmail.com </a></li>
+                     </ul>   
+                    <h3><a href="tel:+211456789">+254714282578</a></h3>                 
+                </div>
+                <!-- About Widget -->
+                <div class="col-lg-3 col-md-6 about-widget footer-widget">
+                    <h4 class="widget-title">About</h4>
+                    <ul>
+                        <li><a href="team">Volunteers</a></li>
+                                        <li><a href="events">Upcoming Events</a></li>
+                                        
+                                    </ul>                
+                                </div>
+                                <!-- Link Widget -->
+                                <div class="col-lg-3 col-md-6 link-widget footer-widget">
+                                    <h4 class="widget-title">Quick Link</h4>
+                                    <ul>
+                                        <li><a href="#">Private Policies</a></li>
+                                        <li><a href="donate">Donate Now</a></li>
+                                        <li><a href="volunteer">Become a Volunteer</a></li>
+                                        <li><a href="contact">Contact Us</a></li>
+                                    </ul>               
+                                </div>
+        
+                                        
+                                    
+                            </div>
+                        </div>
+                        <div class="footer-bottom">
+                            <div class="left-content">
+                                <div class="icon"><img src="{% static 'images/favicon1.jpg' %}" alt="Uzury logo" style="width: 4pem; height:4em;"></div>
+                
+                                <div class="copyright-text"><a href="Uzury Empowerment Hub.net">Uzury Empowerment Hub</a><a href="#">Uzury Empowerment Hub.</a> <br>Designed By <a href="#">our staff.</a></div>
+                            </div>
+                            <div class="right-content">
+                                <ul class="social-icon-three">
+                                    <li><a href="https://www.instagram.com/uzury.empowerment.hub/"><span class="fa fa- instagram"></span></a></li>
+                                    <li><a href="https://www.linkedin.com/company/uzury-empowerment-hub/
+                                "><span class="fa fa-linkedin"></span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+                
+                
+                
+                
+                
+                
+                <!-- JS -->
+                <script  src="{%static 'js/jquery.js' %}"></script>
+                <script  src="{%static 'js/popper.min.js' %}"></script>
+                <script  src="{%static 'js/bootstrap.min.js' %}"></script>
+                <script  src="{%static 'js/TweenMax.min.js' %}"></script>
+                <script  src="{%static 'js/wow.js' %}"></script>
+                <script  src="{%static 'js/owl.js' %}"></script>
+                <script  src="{%static 'js/appear.js' %}"></script>
+                <script  src="{%static 'js/swiper.min.js' %}"></script>
+                <script  src="{%static 'js/jquery.fancybox.js' %}"></script>
+                <script  src="{%static 'js/menu-nav-btn.js' %}"></script>
+                <script  src="{%static 'js/jquery-ui.js' %}"></script>
+                <!-- Custom JS -->
+                <script  src="{%static 'js/script.js' %}"></script>
+                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+                
+                </body>
+                
+                <!-- Uzury Empowerment Hub_html/  20 Nov 2019 03:26:36 GMT -->
+                </html>

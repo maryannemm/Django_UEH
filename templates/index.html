@@ -1,0 +1,545 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Uzury Empowerment Hub_html/  20 Nov 2019 03:24:55 GMT -->
+<head>
+<meta charset="utf-8">
+<title>Uzury Empowerment Hub</title>
+
+<link rel="shortcut icon" href="{% static 'images/favicon1.jpg' %}" type="image/x-icon">
+<link rel="icon" href="{% static 'images/favicon1.jpg' %}" type="image/x-icon">
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.comstatic/css?family=Prata|Rubik:300,400,500,700&amp;display=swap" rel="stylesheet">
+
+<!-- Stylesheets -->
+<link href="{% static 'css/bootstrap.css' %}" rel="stylesheet">
+<link href="{% static 'css/jquery-ui.css' %}" rel="stylesheet">
+<link href="{% static 'css/swiper.min.css' %}" rel="stylesheet">
+<link href="{% static 'css/flaticon.css' %}" rel="stylesheet">
+<link href="{% static 'css/font-awesome.css' %}" rel="stylesheet">
+<link href="{% static 'css/animate.css' %}" rel="stylesheet">
+<link href="{% static 'css/custom-animate.css' %}" rel="stylesheet">
+<link href="{% static 'css/jquery.fancybox.min.css' %}" rel="stylesheet">
+<link href="{% static 'css/owl.css' %}" rel="stylesheet">
+<link href="{% static 'css/style.css' %}" rel="stylesheet">
+<link href="{% static 'css/responsive.css' %}" rel="stylesheet">
+
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<!--[if lt IE 9]><script  src="{ % static 'https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js' %}"></script><![endif]-->
+<!--[if lt IE 9]><script  src="{%static 'js/respond.js' %}"></script><![endif]-->
+</head>
+
+<body>
+
+<div class="page-wrapper">
+    <!-- Preloader -->
+    <div class="loader-wrap">
+        <div class="preloader"></div>
+        <div class="layer layer-one"><span class="overlay"></span></div>
+        <div class="layer layer-two"><span class="overlay"></span></div>        
+        <div class="layer layer-three"><span class="overlay"></span></div>        
+    </div>
+    
+    <!-- Main Header-->
+    <header class="main-header">
+        <!-- Top bar -->
+        <div class="top-bar theme-bg">
+            <div class="auto-container">
+                <div class="wrapper-box">
+                    <div class="left-content">
+                        <div class="language-switcher">
+                            <div class="languages">
+                                <span class="current" title="English">En</span>
+                                <span class="hover">English</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-content">
+                        <ul class="contact-info">
+                            <li><span class="flaticon-mail"></span><a href="mailto:uzuriempowermenthub@gmail.com">uzuriempowermenthub@gmail.com</a></li>
+                            <li><span class="flaticon-phone"></span><a href="tel:+254714282578">+254714282578</a></li>
+                        </ul>
+                        <ul class="social-icon-one">
+                            <li><a href="https://www.instagram.com/uzury.empowerment.hub/"><span class="fa fa-instagram"></span></a></li>
+                            <li><a href="https://www.linkedin.com/company/uzury-empowerment-hub/
+                                "><span class="fa fa-linkedin"></span></a></li>
+                            
+                        </ul>
+                    </div>
+                </div>                
+            </div>
+        </div>
+
+        <!-- Header Upper -->
+        <div class="header-upper">
+            <div class="auto-container">
+                <div class="wrapper-box">
+                    <div class="right-column">
+                        <div class="option-wrapper">
+                            <div class="nav-outer">
+                                
+                                <!-- Main Menu -->
+                                <nav class="main-menu navbar-expand-xl navbar-dark">
+                                    
+                                    <div class="collapse navbar-collapse">
+                                        <ul class="navigation">
+                                            <li class="dropdown current"><a href="{% url 'index' %}">Home</a></li>
+
+                                            <li class="dropdown"><a href="#">Pages</a>
+                                                <ul>
+                                                    <li><a href="about ">About Us</a></li>
+                                                    <li><a href="faq ">FAQs</a></li>
+                                                    <li><a href="team">Meet Our Team</a></li>
+                                                    <li><a href="donate">Donate</a></li>
+                                                    <li><a href="resources">resources</a></li>
+                                                    <li><a href="shop">Shop</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                             
+                                            </li>
+                                            <li><a href="events">Programmes</a> 
+                                            <li><a href="https://podcasters.spotify.com/pod/show/uzuryempowerment"> Podcast</a></li>
+                                            </li>
+                                            <li><a href="team">Team</a>
+                                            </li><li><a href="volunteer">volunteer</a>
+                                            </li>
+                                            <li><a href="contact">Contact</a></li>
+                                        </ul>
+                                    </div>
+                                </nav><!-- Main Menu End-->
+                            </div>
+                            <!--Search Box-->
+                            
+    
+                            <div class="navbar-btn-wrap">
+                                <button class="anim-menu-btn">
+                                  <i class="flaticon-menu"></i>
+                                </button>
+                            </div>
+                            <div class="link-btn">
+                                <a href="volunteer" class="theme-btn btn-style-one"><span>Volunteer</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End Header Upper-->
+
+        <!--End Header Upper-->
+        <div class="sticky-header">
+            <div class="auto-container">
+                <div class="wrapper-box">
+                    <div class="menu-column">
+                        <div class="nav-outer">
+                            
+                            <div class="nav-inner">
+
+                                <!-- Main Menu -->
+                                <nav class="main-menu navbar-expand-xl navbar-dark">
+                                    
+                                    <div class="collapse navbar-collapse">
+                                        <ul class="navigation">
+                                        </ul>
+                                    </div>
+                                </nav><!-- Main Menu End-->
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu  -->
+        <div class="mobile-menu style-one">
+            <div class="menu-box">
+                <!-- Main Menu -->
+                <nav class="main-menu navbar-expand-xl navbar-dark">
+                    <div class="navbar-header">
+                        <!-- Toggle Button -->      
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="flaticon-menu"></span>
+                        </button>
+                    </div>
+                    
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navigation">
+                            
+                        </ul>
+                    </div>
+                </nav>
+                <!-- Main Menu End-->
+                <!--Search Box-->
+            
+            </div>     
+                
+        </div>
+        <!-- End Mobile Menu -->
+
+        <div class="nav-overlay">
+            <div class="cursor"></div>
+            <div class="cursor-follower"></div>
+        </div>
+    </header>
+    <!-- End Main Header -->
+    <!-- Page Title -->
+    <section class="page-title" style="background-image:url(images/background/bg-13.jpg)">
+        <div class="auto-container">
+            <div class="content-box">
+                <h1>Uzury Empowerment Hub</h1>
+                <ul class="bread-crumb">
+                    <li><a class="home" href="index"><span class="fa fa-home" style="padding-bottom: 50px;"></span>Home</a></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hidden Sidebar -->
+    <section class="hidden-sidebar close-sidebar">
+        <div class="wrapper-box">
+            <div class="hidden-sidebar-close"><span class="flaticon-cross"></span></div>
+            <div class="logo"><a href="#"><img  src="{%static 'images/Uzury-logo1.jpg' %}" alt=""></a></div>
+            <div class="content">
+                <div class="about-widget-four sidebar-widget">
+                    <h3>To improve learning environment in primary schools</h3>
+                    <div class="text">We denounce with righteous indignation and dislike men who we are to beguiled demoralized by the charms of pleasures that moment, so we blinded desires, that they indignations.</div>
+                </div>
+                <!-- News Widget -->
+                <div class="news-widget-two sidebar-widget">
+                    <div class="widget-title">News & Updates</div>
+                    <div class="post-wrapper">
+                        <div class="image"><a href="blog-details "><img  src="{%static 'images/resource/post-thumb-1.jpg' %}" alt=""></a></div>
+                        <div class="category">LIFE SAVING</div>
+                        <h4><a href="blog-details ">Uzury Empowerment Hub partners with lafarge on national literacy competition</a></h4>
+                    </div>
+                    <div class="post-wrapper">
+                        <div class="image"><a href="blog-details "><img  src="{%static 'images/resource/post-thumb-2.jpg' %}" alt=""></a></div>
+                        <div class="category">Education</div>
+                        <h4><a href="blog-details ">Uzury Empowerment Hub improves education and community growth</a></h4>
+                    </div>
+                </div>
+                
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="auto-container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about-content-block">
+                        <h1>Be part of a change <br>you want to see in the world</h1>
+                        <h4>“Generosity consists not of the sum given, but the manner in <br>which it is bestowed.”</h4>
+                        <div class="text wow fadeInUp" data-wow-delay="200ms">How all this mistaken idea of denouncing pleasure and praising pain was born <br>and I will give you a complete account of the system expound the actually <br>teachings of the great explorer of the truth pursues.</div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="link-btn wow fadeInLeft" data-wow-delay="500ms"><a href="#" class="theme-btn btn-style-two"><i class="flaticon-next"></i><span>Our Mission</span></a></div>
+                                <div class="text">Supporting women, girls and vulnerable<br>
+                                     populations to achieve their overall well-being to reduce their vulnerability to social injustices and mental health issues.
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="link-btn wow fadeInRight" data-wow-delay="900ms"><a href="#" class="theme-btn btn-style-three"><i class="flaticon-next"></i><span>Our Vision</span></a></div>
+                                <div class="text">The great explorer of the truth, theats masters builders off human happiness no one rejects.</div>
+                            </div>
+                        </div>
+                        <div class="link-btn-two">
+                            <a href="#" class="theme-btn btn-style-one"><span>More About Us</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-image-block">
+                        <div class="logo-box"><div class="image wow zoomIn" data-wow-delay="500ms"><img  src="{%static 'images/resource/logo-icon1.jpg' %}" alt=""></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Funfact Section -->
+    <section class="funfacts-section">
+        <div class="auto-container">
+            <div class="sec-title text-center">
+                <h1>Numbers speaking</h1>
+                <div class="text">Love learning about crazy facts? Then read these amazing facts that will tickle your brain.</div>
+            </div>
+            <div class="outer-box">
+                <div class="funfact-wrapper row">
+                    <!--Column-->
+                    <div class="col-lg-4 counter-block wow fadeInUp" data-wow-delay="300ms">
+                        <div class="inner-box">
+                            <div class="icon-box"><img  src="{%static 'images/icons/icon-3.png' %}" alt=""></div>
+                            <h4>Beneficiaries</h4>
+                            <div class="count-box">
+                                <span class="prefix"> Ksh</span><span class="count-text" data-speed="3000" data-stop="300">0</span><span class="affix">K</span>
+                            </div>
+                            <div class="text">a lot of people in the community directly beneficiaries of our <br>programme.</div>
+                        </div>
+                    </div>
+                    <!--Column-->
+                    <div class="col-lg-4 counter-block wow fadeInUp" data-wow-delay="600ms">
+                        <div class="inner-box">
+                            <div class="icon-box"><img  src="{%static 'images/icons/icon-4.png' %}" alt=""></div>
+                            <h4>Happy Donors</h4>
+                            <div class="count-box">
+                                <span class="prefix"></span><span class="count-text" data-speed="3000" data-stop="10">0</span><span class="affix">+</span> 
+                            </div>
+                            <div class="text">people donate to our charity to with <br>100% happy heart.</div>
+                        </div>
+                    </div>
+                    <!--Column-->
+                    <div class="col-lg-4 counter-block wow fadeInUp" data-wow-delay="300ms">
+                        <div class="inner-box">
+                            <div class="icon-box"><img  src="{%static 'images/icons/icon-5.png' %}" alt=""></div>
+                            <h4>Beneficiaries</h4>
+                            <div class="count-box">
+                                <span class="prefix"></span><span class="count-text" data-speed="3000" data-stop="30">0</span><span class="affix"></span>
+                            </div>
+                            <div class="text">Our work would not be possible without <br>dedicatd 30+ volunteers.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>                
+            <div class="bottom-content text-center">
+                <div class="text">Indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the <br>moment, so blinded by desire, that they cannot foresee.</div>
+                <div class="link-btn"><a href="#" class="theme-btn btn-style-one donate-box-btn"><span>join us now</span></a></div>
+            </div>
+        </div>
+    </section>
+
+    <!--Events Section-->
+    <section class="events-section">
+                
+        <!--Event Tabs-->
+<div class="event-tabs">
+    <div class="auto-container">
+        <div class="row m-0 justify-content-md-between align-items-end">
+            <div class="sec-title">
+                <h1>Our exciting events</h1>
+                <div class="text">Here are our exciting events...would be great to see you at the next one!</div>
+            </div>
+            <!--Tabs Header-->
+            <div class="tabs-header clearfix">
+                <ul class="event-tab-btns clearfix">
+                    <li class="event-tab-btn active-btn" data-tab="#event-tab-1">Ongoing</li>
+                    <li class="event-tab-btn" data-tab="#event-tab-2">Past</li>
+                    <li class="event-tab-btn" data-tab="#event-tab-3">Upcoming</li>
+    
+                </ul>
+            </div>
+        </div> 
+        <div class="event-tab-wrapper">
+            <!--Tabs Content-->  
+            <div class="event-tabs-content">
+                <!--Ongoing Events Tab / Active Tab-->
+                <div class="event-tab active-tab" id="event-tab-1">
+                    <div class="event-carousel owl-theme owl-carousel owl-dot-style-one owl-nav-none">
+                        {% for event in currentev %}
+                        <!-- Event Block One -->
+                        <div class="event-block-one">
+                            <div class="inner-box">
+                                <div class="image"><img  src="{{ event.image.url }}" alt=""></div>
+                                <div class="lower-content">
+                                    <div class="date">
+                                        <h1>{{ event.time.day }}</h1>
+                                        <div class="text"><span>{{ event.time|date:"F" }}</span> <br>{{ event.time|time:"h:iA" }} - {{ event.time|time:"h:iA" }}</div>
+                                    </div>
+                                    <h4><a href="#">{{ event.name }}</a></h4>
+                                    <div class="location"><span class="flaticon-point"></span>{{ event.Location }}</div>
+                                </div>
+                                <div class="link-btn"><a href="#"><span class="flaticon-next"></span>Join Us</a></div>
+                            </div>
+                        </div>
+                        <!-- End of Event Block One -->
+                        {% endfor %}
+                    </div>
+                </div>
+                <!-- End of Ongoing Events Tab -->
+                <!--Past Events Tab-->
+                <div class="event-tab" id="event-tab-2">
+                    <div class="event-carousel owl-theme owl-carousel owl-dot-style-one owl-nav-none">
+                        {% for event in pastev %}
+                        <!-- Event Block One -->
+                        <div class="event-block-one">
+                            <div class="inner-box">
+                                <div class="image"><img  src="{{ event.image.url }}" alt=""></div>
+                                <div class="lower-content">
+                                    <div class="date">
+                                        <h1>{{ event.time.day }}</h1>
+                                        <div class="text"><span>{{ event.time|date:"F" }}</span> <br>{{ event.time|time:"h:iA" }} - {{ event.time|time:"h:iA" }}</div>
+                                    </div>
+                                    <h4><a href="#">{{ event.name }}</a></h4>
+                                    <div class="location"><span class="flaticon-point"></span>{{ event.Location }}</div>
+                                </div>
+                                <div class="link-btn"><a href="#"><span class="flaticon-next"></span>Join Us</a></div>
+                            </div>
+                        </div>
+                        <!-- End of Event Block One -->
+                        {% endfor %}
+                    </div>
+                </div>
+                <div class="event-tab-wrapper">
+                    <div class="event-tab" id="event-tab-3">
+                      {% for event in furturev %}
+                      <div class="event-block-container">
+                        <!-- Event Block One -->
+                        <div class="event-block-one">
+                          <div class="inner-box">
+                            <div class="image"><img src="{{ event.image.url }}" alt=""></div>
+                            <div class="lower-content">
+                              <div class="date">
+                                <h1>{{ event.time.day }}</h1>
+                                <div class="text"><span>{{ event.time|date:"F" }}</span><br>{{ event.time|time:"h:iA" }} - {{ event.time|time:"h:iA" }}</div>
+                              </div>
+                              <h4><a href="#">{{ event.name }}</a></h4>
+                              <div class="location"><span class="flaticon-point"></span>{{ event.Location }}</div>
+                            </div>
+                            <div class="link-btn"><a href="#"><span class="flaticon-next"></span>Join Us</a></div>
+                          </div>
+                        </div>
+                        <!-- End of Event Block One -->
+                      </div>
+                      {% endfor %}
+                    </div>
+                  </div>
+                  
+                <!-- End of Past Events Tab -->
+            </div>                
+        </div>
+    </div>
+</div
+
+    <section class="testimonial-section-four">
+        <div class="auto-container">
+            <div class="sec-title text-center">
+                <h1>Why people love us</h1>
+                <div class="text">Please read below to see what a few of our graduates/volunteers/ partners have to say about us.</div>
+            </div>
+            <div class="row">
+                <div class="three-item-carousel owl-theme owl-carousel owl-nav-none owl-dot-style-one">
+                    {% for t in testimonies %}
+                    <div class="testimonial-block-four">
+                        <div class="inner-box">
+                            <h4>{{ t.name }}</h4>
+                            <div class="text">{{ t.statement }}</div>
+                            <div class="author-title">{{ t.role }}</div>
+                            <div class="designation">{{ t.role }}</div>
+                            <img src="{{ t.image.url }}" alt="{{ t.name }}" class="testimonial-image">
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Client section -->
+    <section class="client-section">
+        <div class="auto-container">
+            <div class="sponsors-carousel owl-carousel owl-theme owl-nav-none owl-dots-none">
+                <div class="image" data-toggle="tooltip" data-placement="top" title="media partner"><a href="#"><img  src="{%static 'images/clients/client-1.png' %}" alt=""></a></div>
+                <div class="image" data-toggle="tooltip" data-placement="top" title="media partner"><a href="#"><img  src="{%static 'images/clients/client-2.png' %}" alt=""></a></div>
+                <div class="image" data-toggle="tooltip" data-placement="top" title="media partner"><a href="#"><img  src="{%static 'images/clients/client-3.png' %}" alt=""></a></div>
+                <div class="image" data-toggle="tooltip" data-placement="top" title="media partner"><a href="#"><img  src="{%static 'images/clients/client-4.png' %}" alt=""></a></div>
+                <div class="image" data-toggle="tooltip" data-placement="top" title="media partner"><a href="#"><img  src="{%static 'images/clients/client-5.png' %}" alt=""></a></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Footer -->
+    <footer class="main-footer">
+        <div class="auto-container">
+            <div class="widget-wrapper">
+                <div class="row">
+                    <!-- Contact Widget -->
+                    <div class="col-lg-3 col-md-6 contact-widget footer-widget">
+                        <h4 class="widget-title">Contact</h4>
+                        <ul>
+                            <li>Meru town, <br>KNLS, Meru.</li>
+                            <li><a href="mailto:uzuriempowermenthub@gmail.com">uzuriempowermenthub@gmail.com </a></li>
+                        </ul>   
+                        <h3><a href="tel:+211456789">+254714282578</a></h3>                 
+                    </div>
+                    <!-- About Widget -->
+                    <div class="col-lg-3 col-md-6 about-widget footer-widget">
+                        <h4 class="widget-title">About</h4>
+                        <ul>
+                            <li><a href=" ">Volunteers</a></li>
+                            <li><a href="#">Upcoming Events</a></li>
+                             </li>
+                        </ul>                
+                    </div>
+                    <!-- Link Widget -->
+                    <div class="col-lg-3 col-md-6 link-widget footer-widget">
+                        <h4 class="widget-title">Quick Link</h4>
+                        <ul>
+                            <li><a href="#">Private Policies</a></li>
+                            <li><a href="donate">Donate Now</a></li>
+                            <li><a href="volunteer">Become a Volunteer</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>               
+                    </div>
+                    
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="left-content">
+                    <div class="icon"><img src="{% static 'images/favicon1.jpg' %}" alt="Uzury logo" style="width: 4pem; height:4em;"></div>
+
+                    <div class="copyright-text"><a href="Uzury Empowerment Hub.net">Uzury Empowerment Hub</a><a href="#">Uzury Empowerment Hub.</a> <br>Designed By <a href="#">our staff.</a></div>
+                </div>
+                <div class="right-content">
+                    <ul class="social-icon-three">
+                        <li><a href="https://www.instagram.com/uzury.empowerment.hub/"><span class="fa fa- instagram"></span></a></li>
+                        <li><a href="https://www.linkedin.com/company/uzury-empowerment-hub/
+                                "><span class="fa fa-linkedin"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+   
+
+
+<!-- JS -->
+<script  src="{%static 'js/jquery.js' %}"></script>
+<script  src="{%static 'js/popper.min.js' %}"></script>
+<script  src="{%static 'js/bootstrap.min.js' %}"></script>
+<script  src="{%static 'js/TweenMax.min.js' %}"></script>
+<script  src="{%static 'js/wow.js' %}"></script>
+<script  src="{%static 'js/owl.js' %}"></script>
+<script  src="{%static 'js/appear.js' %}"></script>
+<script  src="{%static 'js/swiper.min.js' %}"></script>
+<script  src="{%static 'js/jquery.fancybox.js' %}"></script>
+<script  src="{%static 'js/menu-nav-btn.js' %}"></script>
+<script  src="{%static 'js/jquery-ui.js' %}"></script>
+<!-- Custom JS -->
+<script  src="{%static 'js/script.js' %}"></script>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Bootstrap JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+
+</body>
+
+<!-- Uzury Empowerment Hub_html/  20 Nov 2019 03:26:36 GMT -->
+</html>
